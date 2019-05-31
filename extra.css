@@ -1,0 +1,105 @@
+/* p.plugin-desc */
+li.plugin.on
+{
+
+    border-style: solid;
+    border-width: 2px;
+
+    /*让边框变成圆角*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    /*给边框添加阴影样式*/
+    /* box-shadow: 2px 4px 20px #000; */
+    /* box-shadow: 2px 4px 20px#b71a49 */
+
+    /* border-color: #b71a49 */
+
+    
+    /* flex: 50% 0 20%;
+    flex-grow: 50%;
+    flex-shrink: 50%; */
+    flex-basis: 20%;
+
+
+}
+
+/* plugin-list.li:nth-of-type(1){flex-grow: 10;} */
+
+li.plugin{
+    /* flex: 50% 50% 20%;
+    flex-grow: 50%;
+    flex-shrink: 50%; */
+    margin-right: 6.66%;
+    margin-left: 6.66%
+}
+div.caption
+{
+     /* 垂直居中 */
+    display:table-cell;
+    vertical-align:middle;
+    
+    text-align: center;
+    width: 50%;
+    height: 50px;
+
+    border-style: solid;
+    border-width: 2px;
+    margin: 0 auto;
+    /*让边框变成圆角*/
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+
+    /*给边框添加阴影样式*/
+    box-shadow: 2px 4px 20px #000;
+
+    /* color:#b71a49 */
+    /* color: #2ca02c; */
+}
+
+/* #logo{
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url(https://raw.githubusercontent.com/Spycsh/Spycsh.github.io/master/images/Haruhi.jpg);
+    background-image: url(https://raw.githubusercontent.com/Spycsh/Spycsh.github.io/master/images/Haruhi.jpg);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: 50px 50px;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    width: 50px;
+    height: 50px;
+    -webkit-background-size: 50px 50px;
+    -moz-background-size: 50px 50px;
+    background-size: 50px 50px;
+    display: block;
+} */
+
+#content-wrap{
+    background-image: url(https://avos-cloud-rj6ebqnzvptr.s3.amazonaws.com/e20a366e4c00ba65d90f/bg.jpg);
+}
+
+.corner-arrow{
+    display: inline-block;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    width: 15px;
+    height: 15px;
+    border-color: #1c1c1d;
+    transform: rotate(45deg);
+    margin: 50px auto auto 100px;
+
+    float: right;
+    
+}
+
+.fa-github-alt{
+    background-image: url(https://img.icons8.com/nolan/26/000000/github.png)
+}
