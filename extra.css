@@ -83,7 +83,10 @@ div.caption
 } */
 
 #content-wrap{
-    background-image: url(https://avos-cloud-rj6ebqnzvptr.s3.amazonaws.com/e20a366e4c00ba65d90f/bg.jpg);
+    background-image: url(https://drscdn.500px.org/photo/103722461/q%3D80_m%3D2000/v2?user_id=72639069&webp=true&sig=5859ff3b753a8ae91555123ab0fa036dda1e7b9a566b515bfc5932b7b7b43a1d);
+    background-repeat: no-repeat
+
+
 }
 
 .corner-arrow{
